@@ -247,19 +247,19 @@ footer .social_media ul li a img {
   --colorFooter: #45dbfc;
 }
 /* @media */
-@media only screen and (min-width: 425px) {
+/*@media (min-width: 425px) {
   .header .coluna img {
     margin-left: 87px;
   }
-}
+}*/
 @media only screen and (min-width: 768px) {
   /* caixa com foto de perfil */
   .header .coluna img {
-    margin-left: 256px;
+    margin-left: 245px;
   }
 }
 
-@media only screen and (min-width: 831px) {
+/*@media only screen and (min-width: 831px) {
   :root {
     --colorHeader: #055e727a;
     --colorFooter: #04133d;
