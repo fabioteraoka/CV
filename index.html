@@ -15,7 +15,7 @@
   <body>
     <input
       type="checkbox"
-      checked
+      unchecked
       class="ativar-dark"
       name=""
       id="ativar-dark"
@@ -25,7 +25,10 @@
       <header>
         <!-- Caixa com a foto perfil-->
         <div class="container">
-          <label for="ativar-dark">Dark</label>
+          <label for="ativar-dark">
+            <span>
+            </span>
+          </label>
           <div class="linha">
             <div class="coluna foto">
               <figure>
@@ -34,7 +37,7 @@
               </figure>
             </div>
             <!-- caixa com dados pessoais-->
-            <div class="coluna perfil">
+            <div class="coluna coluna-direita">
               <h1>Fabio Teraoka</h1>
               <p>Engenheiro Industrial Mecânico</p>
               <ul>
@@ -60,9 +63,10 @@
       <main>
         <div class="container">
           <div class="linha">
-            <!--Conteudo lado esquerdo-->
+            <!--Conteudo lado Esquerdo-->
             <div class="coluna lado_esquerdo">
               <section class="perfil_profissional">
+                <span class="topo-direita"></span>
                 <h2>Perfil Profissional</h2>
                 <p>
                   Ampla experiência na área de engenharia, gerenciamento de
@@ -83,8 +87,10 @@
                   de custos, troca de peças, vida útil, controle total de
                   durabilidade e qualidade, acompanhamento de check.
                 </p>
+                <span class="baixo-esquerda"></span>
               </section>
               <section class="experiencia">
+                <span class="topo-direita"></span>
                 <h2>Experiência</h2>
                 <ul>
                   <li>
@@ -174,8 +180,10 @@
                     </p>
                   </li>
                 </ul>
+                <span class="baixo-esquerda"></span>
               </section>
               <section class="formacao">
+                <span class="topo-direita"></span>
                 <h2>Formação</h2>
                 <ul>
                   <li>
@@ -191,9 +199,11 @@
                     <a>(1990 - 1991)</a>
                   </li>
                 </ul>
+                <span class="baixo-esquerda"></span>
               </section>
               <section class="skill">
                 <h2>Skill em Desenvolvendo</h2>
+                <span class="topo-direita"></span>
                 <ul>
                   <li>
                     <img src="./assets/img/HTML5.png" alt="HTML" />
@@ -212,12 +222,14 @@
                     <progress id="progress" value="20" max="100">20%</progress>
                   </li>
                 </ul>
+                <span class="baixo-esquerda"></span>
               </section>
             </div>
 
             <!--Conteudo lado direito-->
             <div class="coluna lado_direito">
               <section class="especialidade">
+                <span class="topo-direita"></span>
                 <h2>Cursos Especificos</h2>
                 <ul>
                   <li>Treinamento Inicial de(PCA) - ANAC - 2019</li>
@@ -256,8 +268,10 @@
                     Familiarização da ACFT ATR42 - Pantanal Linhas Aéreas – 2000
                   </li>
                 </ul>
+                <span class="baixo-esquerda"></span>
               </section>
               <section class="aprimoramento">
+                <span class="topo-direita"></span>
                 <h2>Cursos de Aprimoramento</h2>
                 <ul>
                   <li>Conhecendo o Planner – Microsoft – 10/2020</li>
@@ -273,8 +287,10 @@
                     Como Aproveitar Ao Máximo O Linkedin – Linkedin – 03/2020
                   </li>
                 </ul>
+                <span class="baixo-esquerda"></span>
               </section>
               <section class="gestao">
+                <span class="topo-direita"></span>
                 <h2>Cursos de Gestão</h2>
                 <ul>
                   <li>Digital Body Language – Linkedin – 07/2020</li>
@@ -330,8 +346,10 @@
                     O Processo Criativo Em Cinco Etapas – Linkedin – 03/2020
                   </li>
                 </ul>
+                <span class="baixo-esquerda"></span>
               </section>
               <section class="programacao">
+                <span class="topo-direita"></span>
                 <h2>Cursos de Programação</h2>
                 <ul>
                   <li>Torne-se um Cientista de Dados – Linkedin – 02/2022</li>
@@ -477,6 +495,7 @@
                   </li>
                   <li>Descubra o Python – Linkedin – 05/2020</li>
                 </ul>
+                <span class="baixo-esquerda"></span>
               </section>
             </div>
           </div>
@@ -485,9 +504,8 @@
       <!--Conteudo do rodape-->
       <footer>
         <div class="container">
-          <div class="rodape">
-            <nav class="contato">
-              <ul>
+            <nav >
+              <ul class="info-contato">
                 <li>
                   <a href="mailto:fteraoka@gmail.com"
                     ><strong>E-mail:</strong> fteraoka@gmail.com</a
@@ -502,34 +520,34 @@
                   <a
                     href="https://www.google.com/maps/place/R.+Guiratinga,+954+-+Ch%C3%A1cara+Inglesa,+S%C3%A3o+Paulo+-+SP,+04141-001/@-23.6096432,-46.6333937,17z/data=!3m1!4b1!4m5!3m4!1s0x94ce5bb3437f4f91:0x99b295967716d163!8m2!3d-23.6096432!4d-46.631205"
                     ><strong>Endereço</strong> Rua Guiratinga, 954 - Chacara
-                    Inglesa</a
+                    Inglesa<br><br></a 
                   >
                   <a href="#">São Paulo - SP</a>
                 </li>
               </ul>
             </nav>
-            <nav class="social_media">
-              <ul>
+            <nav >
+              <ul class="redes-sociais">
                 <li>
-                  <a href="#">
+                  <a href="https://www.linkedin.com/in/fabioteraoka/">
                     <img src="./assets/img/linkedin.svg" alt="Linkedin" />
                     <p>Linkedin</p>
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="https://github.com/fabioteraoka">
                     <img src="./assets/img/github-big-logo.svg" alt="Github" />
                     <p>Github</p>
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="https://www.instagram.com/fteraoka/">
                     <img src="./assets/img/instagram.svg" alt="Instagram" />
                     <p>Instagram</p>
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="https://www.facebook.com/fabio.teraoka/">
                     <img
                       src="./assets/img/facebook-app-symbol.svg"
                       alt="Facebook"
@@ -539,7 +557,7 @@
                 </li>
               </ul>
             </nav>
-          </div>
+          
         </div>
       </footer>
     </div>
